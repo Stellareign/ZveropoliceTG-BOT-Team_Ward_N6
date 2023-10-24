@@ -6,8 +6,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling // для таймера
-public class TGBotPetShelterApplication {
 
+public class TGBotPetShelterApplication {
     public static void main(String[] args) {
         SpringApplication.run(TGBotPetShelterApplication.class, args);
     }
